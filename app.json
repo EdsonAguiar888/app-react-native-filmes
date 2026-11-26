@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "primeiro-app-react-native",
+    "slug": "primeiro-app-react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "primeiroappreactnative",
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "@react-native-vector-icons/ionicons"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.edsonaguiar9999.primeiroappreactnative"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "e0481a02-07df-4ccb-9eda-271ebde1f108"
+      }
+    }
+  }
+}
